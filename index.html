@@ -1,11 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AT Benjamin Lda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
-    
+    <div class="wrapper d-flex flex-column min-vh-100">
+        <header class="container-fluid ">
+            <div class="container">
+                <nav class="container-fluid d-flex justify-content-between align-items-center">
+                    <img id="logo" src="assets/img-teste2.jpg" alt="">
+                    <ul>
+                        <li><a href="#">Sobre nós
+                                <i class="bi bi-hammer"></i>
+                            </a></li>
+                        <li><a href="#">Galeria
+                                <i class="bi bi-images"></i>
+                            </a></li>
+                        <li><a href="#">Contactos
+                                <i class="bi bi-person-rolodex"></i>
+                            </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="hero container mt-5">
+            <div class="sobre-nos-txt">
+                <h2>Sobre nós</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores culpa eligendi tenetur
+                    exercitationem
+                    sapiente numquam similique facilis, dolore id placeat laboriosam sequi soluta quaerat repellendus
+                    provident atque beatae? Laudantium, sed?</p>
+            </div>
+
+            <div class="galeria">
+                <div class="galeria-titulo">
+                    <h2>Galeria</h2>
+                </div>
+                <div class="galeria-botoes">
+                    <button class="btn btn-outline-danger button-photos">Fotos</button>
+                    <button class="btn btn-outline-danger button-videos">Vídeos</button>
+                </div>
+                <div class="gallery-wrapper">
+                    <div class="row photos">
+                        <div class="col-6">
+                            <img class="img-fluid img-gallery" src="assets/Ayanami rei.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid img-gallery" src="assets/img-teste1.png" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid img-gallery" src="assets/img-teste2.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid img-gallery" src="assets/img-teste3.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="row videos">
+                        <div class="col-6">
+                            <img class="img-fluid img-gallery" src="assets/img-teste4.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid img-gallery" src="assets/img-teste5.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid img-gallery" src="assets/img-teste6.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid img-gallery" src="assets/ikari.jpg" alt="">
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </main>
+        <footer>
+            <div class="footer-wrap container mt-2">
+                <h2>Contatos</h2>
+                <div class="contactos">
+                    <a href="#">Exemplo</a>
+                    <i class="bi bi-envelope-at-fill"></i>
+                    <a href="#">Exemplo</a>
+                    <i class="bi bi-telephone-fill"></i>
+                    <a href="#">Exemplo</a>
+                    <i class="bi bi-whatsapp"></i>
+                </div>
+                <div class="redes-sociais d-flex justify-content-end align-content-around">
+                    <a class="me-3" href=""><i class="bi bi-facebook text-light"></i></a>
+                    <a class="me-3" href=""><i class="bi bi-instagram text-light"></i></a>
+                    <a class="me-3" href=""><i class="bi bi-linkedin text-light"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="scripts/script.js"></script>
 </body>
+
 </html>
